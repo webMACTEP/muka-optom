@@ -504,3 +504,93 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.school {
+  padding: 90px 0px;
+}
+
+.school .butt {
+  padding: 16px 24px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3cd93), color-stop(99.99%, #bc9b4b), to(rgba(217, 217, 217, 0)));
+  background: linear-gradient(180deg, #e3cd93 0%, #bc9b4b 99.99%, rgba(217, 217, 217, 0) 100%);
+  -webkit-filter: drop-shadow(0px 9px 14px rgba(111, 87, 30, 0.43));
+          filter: drop-shadow(0px 9px 14px rgba(111, 87, 30, 0.43));
+  border-radius: 10px;
+}
+
+.school .butt:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e8cb84), color-stop(21%, #e6c575), color-stop(78%, #ddab35), to(#daa524));
+  background: linear-gradient(to bottom, #e8cb84 0%, #e6c575 21%, #ddab35 78%, #daa524 100%);
+}
+
+.school p {
+  margin: 0px 0px 50px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.school p a {
+  color: #2f80ed;
+}
+
+.school p a:hover {
+  text-decoration: underline;
+}
+
+.school h2 {
+  margin: 0px 0px 36px 0px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.school .img {
+  position: absolute;
+  left: -100px;
+  top: 60px;
+}
+
+.school .img .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  background: #ffffff;
+  width: 204px;
+  height: 204px;
+  bottom: -102px;
+  left: 50%;
+  border-radius: 100px;
+  margin-left: -152px;
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.06);
+}
+
+.school .img .logo img {
+  margin: 0px 0px 55px 0px;
+}
+
+.school .img .all {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 50px;
+}
+
+.school .info {
+  padding: 60px 100px 120px 480px;
+  position: relative;
+  margin: 0px 0px 0px 100px;
+  background: #ffffff;
+  border: 1px solid #efdeb0;
+  border-radius: 0px 50px;
+}
