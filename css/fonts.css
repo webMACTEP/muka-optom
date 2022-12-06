@@ -44,100 +44,100 @@ blockquote, q {
 
 @font-face {
   font-family: "Pacifico";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Pacifico-Regular.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Pacifico-Regular.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Pacifico-Regular.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Pacifico-Regular.ttf") format("truetype");
+  src: url("../fonts/Pacifico-Regular.eot");
+  src: url("../fonts/Pacifico-Regular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Pacifico-Regular.woff") format("woff"),
+  url("../fonts/Pacifico-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Muller";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerRegular.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerRegular.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerRegular.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerRegular.ttf") format("truetype");
+  src: url("../fonts/MullerRegular.eot");
+  src: url("../fonts/MullerRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MullerRegular.woff") format("woff"),
+  url("../fonts/MullerRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Muller";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerLight.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerLight.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerLight.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerLight.ttf") format("truetype");
+  src: url("../fonts/MullerLight.eot");
+  src: url("../fonts/MullerLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MullerLight.woff") format("woff"),
+  url("../fonts/MullerLight.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Muller";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerMedium.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerMedium.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerMedium.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerMedium.ttf") format("truetype");
+  src: url("../fonts/MullerMedium.eot");
+  src: url("../fonts/MullerMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MullerMedium.woff") format("woff"),
+  url("../fonts/MullerMedium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Muller";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerBold.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/MullerBold.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerBold.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/MullerBold.ttf") format("truetype");
+  src: url("../fonts/MullerBold.eot");
+  src: url("../fonts/MullerBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MullerBold.woff") format("woff"),
+  url("../fonts/MullerBold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Qanelas";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Regular.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Regular.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Regular.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Regular.ttf") format("truetype");
+  src: url("../fonts/Qanelas-Regular.eot");
+  src: url("../fonts/Qanelas-Regular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Qanelas-Regular.woff") format("woff"),
+  url("../fonts/Qanelas-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Qanelas";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Light.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Light.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Light.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Light.ttf") format("truetype");
+  src: url("../fonts/Qanelas-Light.eot");
+  src: url("../fonts/Qanelas-Light.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Qanelas-Light.woff") format("woff"),
+  url("../fonts/Qanelas-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Qanelas";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Medium.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Medium.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Medium.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Medium.ttf") format("truetype");
+  src: url("../fonts/Qanelas-Medium.eot");
+  src: url("../fonts/Qanelas-Medium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Qanelas-Medium.woff") format("woff"),
+  url("../fonts/Qanelas-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Qanelas";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-SemiBold.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-SemiBold.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-SemiBold.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Qanelas-SemiBold.eot");
+  src: url("../fonts/Qanelas-SemiBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Qanelas-SemiBold.woff") format("woff"),
+  url("../fonts/Qanelas-SemiBold.ttf") format("truetype");
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Qanelas";
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Bold.eot");
-  src: url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Bold.eot?#iefix")format("embedded-opentype"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Bold.woff") format("woff"),
-  url("https://pushkino-mill.ru/local/templates/main/fonts/Qanelas-Bold.ttf") format("truetype");
+  src: url("../fonts/Qanelas-Bold.eot");
+  src: url("../fonts/Qanelas-Bold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Qanelas-Bold.woff") format("woff"),
+  url("../fonts/Qanelas-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
