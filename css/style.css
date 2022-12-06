@@ -339,3 +339,44 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.advantages-n {
+  padding: 90px 0px;
+}
+
+.advantages-n p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.advantages-n .title {
+  margin: 18px 0px 12px 0px;
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.advantages-n .item {
+  max-width: 350px;
+  text-align: center;
+}
+
+.advantages-n .wrapp {
+  margin: 60px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.advantages-n h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  color: #000000;
+}
