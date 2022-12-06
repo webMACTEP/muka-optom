@@ -78,6 +78,7 @@
 }
 
 .etaps {
+  margin: 0px 0px -90px 0px;
   position: relative;
   background: #fffbf4;
   padding: 60px 0px 180px 0px;
@@ -157,6 +158,80 @@
 
 .block-img-right {
   padding: 60px 0px 60px 0px;
+}
+
+.block-img-right .info .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  height: 97px;
+  border: 1px solid #e0e0e0;
+  padding: 0px 0px 0px 0px;
+}
+
+.block-img-right .info .item p {
+  padding: 3px 0px 7px 0px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+.block-img-right .info .item span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.block-img-right .info .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin: 0px 0px 50px 0px;
+}
+
+.block-img-right .info .value {
+  margin: 40px 0px 18px 0px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.block-img-right .info p {
+  max-width: 553px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.block-img-right .info .subtitle {
+  margin: 0px 0px 18px 0px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.block-img-right .info h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
 }
 
 .block-img-right .img {
@@ -249,4 +324,5 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 70px;
 }

@@ -54,6 +54,7 @@
    //clip-path: circle(120% at 50% -140%);
 }
 .etaps {
+   margin: 0px 0px -90px 0px;
    h2 {
       font-weight: 700;
       font-size: 48px;
@@ -116,6 +117,63 @@
    padding: 60px 0px 180px 0px;
 }
 .block-img-right {
+   .info {
+      .item {
+         p {
+            padding: 3px 0px 7px 0px;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: #333333;
+         }
+         span {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #333333;
+         }
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 80px;
+         height: 97px;
+         border: 1px solid #e0e0e0;
+         padding: 0px 0px 0px 0px;
+      }
+      .wrap {
+         display: flex;
+         gap: 16px;
+         margin: 0px 0px 50px 0px;
+      }
+      .value {
+         margin: 40px 0px 18px 0px;
+         font-weight: 400;
+         font-size: 22px;
+         line-height: 30px;
+         color: #000000;
+      }
+      p {
+         max-width: 553px;
+         font-size: 16px;
+         line-height: 22px;
+         color: #000000;
+      }
+      .subtitle {
+         margin: 0px 0px 18px 0px;
+         font-weight: 400;
+         font-size: 22px;
+         line-height: 30px;
+         color: #000000;
+      }
+      h2 {
+         font-weight: 700;
+         font-size: 32px;
+         line-height: 40px;
+         color: #000000;
+      }
+   }
    .img {
       .item {
          h4 {
@@ -182,6 +240,7 @@
    .wrapp {
       display: flex;
       justify-content: space-between;
+      gap: 70px;
    }
    padding: 60px 0px 60px 0px;
 }
