@@ -11,7 +11,7 @@
       filter: drop-shadow(0px 9px 14px rgba(111, 87, 30, 0.43));
       border-radius: 10px;
       &:hover {
-         background: linear-gradient(180deg, #bc9b4b 99.99%, #e3cd93 0%, rgba(217, 217, 217, 0) 100%);
+         background: linear-gradient(to bottom, #e8cb84 0%, #e6c575 21%, #ddab35 78%, #daa524 100%);
       }
    }
    p {
@@ -114,4 +114,74 @@
    position: relative;
    background: #fffbf4;
    padding: 60px 0px 180px 0px;
+}
+.block-img-right {
+   .img {
+      .item {
+         h4 {
+            position: relative;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 10px;
+            &::after {
+               content: "";
+               position: absolute;
+               bottom: -3px;
+               margin-left: -18px;
+               left: 50%;
+               width: 36px;
+               height: 1px;
+               background: #fff;
+            }
+         }
+         color: #fff;
+         p {
+            color: #fff;
+
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+         }
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         border-radius: 100px;
+         width: 97px;
+         height: 97px;
+         background: #3c8246;
+         margin: 0px 0px 18px 0px;
+      }
+      .items {
+         position: absolute;
+         right: 10px;
+         top: 80px;
+      }
+      position: relative;
+      max-width: 500px;
+      max-height: 500px;
+
+      img {
+         border-radius: 0 50px;
+         object-fit: cover;
+      }
+   }
+   .butt {
+      padding: 16px 24px;
+      font-size: 20px;
+      line-height: 30px;
+      color: #ffffff;
+      background: linear-gradient(180deg, #e3cd93 0%, #bc9b4b 99.99%, rgba(217, 217, 217, 0) 100%);
+      filter: drop-shadow(0px 9px 14px rgba(111, 87, 30, 0.43));
+      border-radius: 10px;
+      &:hover {
+         background: linear-gradient(to bottom, #e8cb84 0%, #e6c575 21%, #ddab35 78%, #daa524 100%);
+      }
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 60px 0px 60px 0px;
 }
