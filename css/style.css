@@ -26,6 +26,11 @@
   border-radius: 10px;
 }
 
+.intro .intro-butt:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(99.99%, #bc9b4b), color-stop(0%, #e3cd93), to(rgba(217, 217, 217, 0)));
+  background: linear-gradient(180deg, #bc9b4b 99.99%, #e3cd93 0%, rgba(217, 217, 217, 0) 100%);
+}
+
 .intro p {
   font-weight: 400;
   font-size: 16px;
