@@ -1,1 +1,55 @@
-//@import "_nullstyle";
+.intro {
+   .intro-butt {
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      max-width: 295px;
+      align-items: center;
+      justify-content: center;
+      margin: 0px auto;
+      background: linear-gradient(180deg, #e3cd93 0%, #bc9b4b 99.99%, rgba(217, 217, 217, 0) 100%);
+      filter: drop-shadow(0px 9px 14px rgba(111, 87, 30, 0.43));
+      border-radius: 10px;
+   }
+   p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0px 0px 0px 20px;
+   }
+   .item {
+      display: flex;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 0px 0px 42px 0px;
+   }
+   h2 {
+      font-size: 48px;
+      line-height: 55px;
+      text-align: center;
+      margin: 0px 0px 70px 0px;
+   }
+   .circl {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      height: 200px;
+      bottom: 0;
+
+      img {
+         width: 100%;
+      }
+   }
+   position: relative;
+   padding: 86px 0px 85px 0px;
+   background: url("../img/intro-bg.png") center center no-repeat;
+   background-size: cover;
+   //clip-path: circle(120% at 50% -140%);
+}
+.etaps {
+   background: #fffbf4;
+   padding: 60px 0px 0px 0px;
+}
