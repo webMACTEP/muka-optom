@@ -333,13 +333,6 @@
   gap: 70px;
 }
 
-.gallery img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .advantages-n {
   padding: 90px 0px;
 }
@@ -456,4 +449,58 @@
 .uslug.us03 {
   background: url("../img/us03.jpg") center center no-repeat;
   background-size: cover;
+}
+
+.director {
+  padding: 90px 0px;
+}
+
+.director p {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.director h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  margin: 0px 0px 36px 0px;
+}
+
+.director .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 115px;
+}
+
+.gallery {
+  background: #fffbf4;
+  padding: 60px 0px 90px 0px;
+}
+
+.gallery .swiper-container-horizontal {
+  padding: 0px 0px 50px 0px;
+}
+
+.gallery h2 {
+  margin: 0px 0px 42px 0px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
