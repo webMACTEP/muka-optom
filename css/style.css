@@ -299,8 +299,8 @@
 }
 
 .block-img .img img {
-  max-width: 500px;
-  max-height: 500px;
+  width: 500px;
+  height: 500px;
   border-radius: 0 50px;
   -o-object-fit: cover;
      object-fit: cover;
