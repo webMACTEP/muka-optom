@@ -116,7 +116,12 @@
    background: #fffbf4;
    padding: 60px 0px 180px 0px;
 }
-.block-img-right {
+.block-img {
+   &.right {
+   }
+   &.left {
+      background: #fffbf4;
+   }
    .info {
       .item {
          p {
@@ -221,6 +226,8 @@
       max-height: 500px;
 
       img {
+         max-width: 500px;
+         max-height: 500px;
          border-radius: 0 50px;
          object-fit: cover;
       }
