@@ -1,4 +1,11 @@
 @media (max-width: 992px) {
+   .block-img .img01,
+   .block-img .img02,
+   .block-img .img03,
+   .block-img .img04 {
+      max-width: 500px;
+      width: 100vw;
+   }
    .professional {
       margin-top: 100px;
    }

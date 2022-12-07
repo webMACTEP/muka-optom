@@ -160,6 +160,58 @@
   padding: 60px 0px 60px 0px;
 }
 
+.block-img .img01 {
+  border-radius: 0 50px;
+  width: 500px;
+  height: 500px;
+  background: url("../img/i01h.png") no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.block-img .img01:hover {
+  background: url("../img/i01.png") no-repeat;
+}
+
+.block-img .img02 {
+  border-radius: 0 50px;
+  width: 500px;
+  height: 500px;
+  background: url("../img/i02.png") no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.block-img .img02:hover {
+  background: url("../img/i01.png") no-repeat;
+}
+
+.block-img .img03 {
+  border-radius: 0 50px;
+  width: 500px;
+  height: 500px;
+  background: url("../img/i03.png") no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.block-img .img03:hover {
+  background: url("../img/i01.png") no-repeat;
+}
+
+.block-img .img04 {
+  border-radius: 0 50px;
+  width: 500px;
+  height: 500px;
+  background: url("../img/i04.png") no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.block-img .img04:hover {
+  background: url("../img/i01.png") no-repeat;
+}
+
 .block-img.left {
   background: #fffbf4;
 }
