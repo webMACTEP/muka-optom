@@ -72,8 +72,7 @@
   .block-img .wrapp,
   .director .wrapp,
   .advantages-n .wrapp,
-  .etaps .wrapp,
-  .intro .wrapp {
+  .etaps .wrapp {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -81,6 +80,21 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .intro .ico {
+    min-width: 50px;
+    text-align: center;
+  }
+  .professional .wrapp {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .intro .wrapp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .professional h2 br {
     display: none;
