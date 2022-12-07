@@ -19,6 +19,35 @@ jQuery(document).ready(function ($) {
             disableOnInteraction: false,
          },
          simulateTouch: true,
+         breakpoints: {
+            370: {
+               slidesPerView: 1.2,
+               spaceBetween: 5
+            },
+            680: {
+               slidesPerView: 2,
+               spaceBetween: 5
+            },
+            900: {
+               slidesPerView: 3,
+            },
+            1120: {
+               slidesPerView: 3,
+            },
+            1340: {
+               slidesPerView: 3,
+            },
+            1570: {
+               slidesPerView: 3,
+            },
+            1630: {
+               slidesPerView: 3,
+            },
+            7000: {
+               slidesPerView: 3,
+            }
+
+         },
       });
    } else {
       $('.swiper-button-next').css('display', 'none');
