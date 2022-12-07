@@ -485,6 +485,11 @@
   padding: 60px 0px 90px 0px;
 }
 
+.gallery .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
 .gallery .swiper-pagination-bullet-active {
   background: #3c8246;
 }
