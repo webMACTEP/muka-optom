@@ -90,6 +90,10 @@
     line-height: 1.2;
   }
   .professional .circl,
+  .etaps .circl,
+  .etaps .circl img,
+  .intro .circl,
+  .intro .circl img,
   .professional .circl img {
     height: 100px;
   }
